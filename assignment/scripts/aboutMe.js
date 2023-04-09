@@ -31,7 +31,7 @@ let food = 'Lasagna';
 let pets = 1;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets = 3;
+let friendsPets = 1;
 // 11 - Add two pets to your `pets` variable
 pets += 2;
 
@@ -72,6 +72,15 @@ else{
 }
 
 // STRETCH GOALS:
+let mostPets ;
+if( pets > friendsPets) {
+    mostPets = pets;
+}
+else if( friendsPets > pets) {
+    mostPets = friendsPets;
+}
+console.log( mostPets);
+
 
 // 16 - Make a variable called `mostPets` and a conditional that
 // correctly checks the `pets` and `friendsPets` variables, and
